@@ -1,0 +1,20 @@
+.parent > div{
+    background-color: coral;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 75px;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* justify-content:  space-evenly; */
+    /* align-content: ; */
+
+}
+#eight{
+    /* flex-grow: 3; */
+    flex-shrink: 3;
+}

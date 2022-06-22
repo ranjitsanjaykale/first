@@ -1,0 +1,16 @@
+body{
+    background-color: aqua;
+}
+.newclass{
+    background-color: brown;
+}
+.lorem{
+    
+    width: 70%;
+    cursor: pointer;
+    font-size: 3;
+}
+.lorem > pre:hover{
+    background-color: yellow;
+    color: blueviolet;
+}
